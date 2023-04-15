@@ -9,4 +9,7 @@
     <span *ngIf="task.done">[完了]</span>
     {{ task.title }} 
   </li>
+  <li>
+    <input type="text" [(ngModel)]="newTaskTitle">
+  </li>
 </ul>

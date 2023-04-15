@@ -11,4 +11,6 @@ export class AppComponent {
     {title: '洗濯をする', done: true},
     {title: '掃除をする', done: false,}
   ]
+
+  newTaskTitle = '';
 }
