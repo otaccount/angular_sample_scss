@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular_sample_scss';
+  readonly tasks = [
+    {title: '牛乳を買う', done: false},
+    {title: '洗濯をする', done: true},
+    {title: '掃除をする', done: false,}
+  ]
 }
